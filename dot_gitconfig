@@ -1,0 +1,5 @@
+[user]
+	email = iucar@fedoraproject.org
+	name = Iñaki Úcar
+[credential]
+	helper = cache

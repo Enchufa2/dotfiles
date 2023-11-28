@@ -1,0 +1,23 @@
+let mapleader=","
+
+set laststatus=2
+set colorcolumn=81
+highlight ColorColumn ctermbg=8
+set number
+set cursorline
+set wildmenu
+set showmatch
+
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+nnoremap <leader><space> :nohlsearch<CR>

@@ -1,0 +1,14 @@
+[Appearance]
+Skin=tabsonly
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=green.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=100
+ShowSystrayIcon=false
+Width=70

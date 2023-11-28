@@ -1,0 +1,8 @@
+CCACHE = /usr/bin/ccache
+CC = $(CCACHE) gcc
+CXX = $(CCACHE) g++ -std=gnu++14
+CXX11 = $(CCACHE) g++
+CXX14 = $(CCACHE) g++
+CXX17 = $(CCACHE) g++
+CXX20 = $(CCACHE) g++
+CXXFLAGS += -Wno-parentheses
