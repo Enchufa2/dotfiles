@@ -1,2 +1,3 @@
 alias prri='podman run --rm -it'
+alias prrim='prri -v $PWD:/mnt:z -w /mnt'
 alias prrid='prri --cap-add=SYS_PTRACE --security-opt seccomp=unconfined'
