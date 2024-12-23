@@ -1,0 +1,7 @@
+mockthis () {
+    NAME=$(basename $PWD)
+    rm -rf results_$NAME
+    spectool -g $NAME.spec
+    mock --buildsrpm --spec $NAME.spec --sources . --resultdir results_$NAME $@
+    mock --rebuild results_$NAME/$NAME-*.src.rpm --resultdir results_$NAME $@
+}
